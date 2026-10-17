@@ -1,0 +1,28 @@
+name: connected_gardens
+description: Independent Dart authoring example with original textured worlds and portals for VRlizate SDK.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  crypto: ^3.0.7
+  vrlizate_apps:
+    path: ../../neom_modules/vr/vrlizate_apps
+  vrlizate_world:
+    path: ../../neom_modules/vr/vrlizate_world
+
+dependency_overrides:
+  vrlizate_world:
+    path: ../../neom_modules/vr/vrlizate_world
+  vrlizate:
+    path: ../../neom_modules/vr/vrlizate
+  vrlizate_scene:
+    path: ../../neom_modules/vr/vrlizate_scene
+  vrlizate_widgets:
+    path: ../../neom_modules/vr/vrlizate_widgets
+  vrlizate_physics:
+    path: ../../neom_modules/vr/vrlizate_physics
+  vrlizate_spatial_audio:
+    path: ../../neom_modules/vr/vrlizate_spatial_audio

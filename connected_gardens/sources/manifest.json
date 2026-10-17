@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "id": "community.connected_gardens",
+  "title": "Jardines conectados",
+  "description": "Un jardín de mosaicos y un observatorio originales, unidos por portales.",
+  "runtime": "vrlizate.worlds.v1",
+  "entrypoint": "garden",
+  "capabilities": [
+    "worlds.local"
+  ],
+  "revision": "1.0.0-beta.1",
+  "worlds": [
+    {
+      "alias": "garden",
+      "id": "community.connected_gardens.garden",
+      "file": "world_garden.vrlw",
+      "sha256": "f6c534d919222723326765f981100dea836138b344a6d198ef612439b93339d6",
+      "indexSha256": "6d19651fbc7038c1f65986b15ed04a737a8d3f263dd3e5ff687fcfa0df298364",
+      "spawn": [
+        0.0,
+        1.6,
+        7.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "alias": "observatory",
+      "id": "community.connected_gardens.observatory",
+      "file": "world_observatory.vrlw",
+      "sha256": "7dece368ee12ae6e0aaa07400077b0c333b9abb8efb27a2c099db31201ecb2ca",
+      "indexSha256": "eeaeaa1cd8f380e86eea16db1318f4f0ffe024145078da439f20a980e9999000",
+      "spawn": [
+        0.0,
+        1.6,
+        7.0
+      ],
+      "yaw": 0.0
+    }
+  ],
+  "portals": [
+    {
+      "id": "garden.to_observatory",
+      "from": "garden",
+      "to": "observatory",
+      "position": [
+        0.0,
+        1.6,
+        -9.0
+      ],
+      "arrival": [
+        0.0,
+        1.6,
+        7.0
+      ],
+      "yaw": 0.0,
+      "label": "Observatorio del crepúsculo"
+    },
+    {
+      "id": "observatory.to_garden",
+      "from": "observatory",
+      "to": "garden",
+      "position": [
+        0.0,
+        1.6,
+        -9.0
+      ],
+      "arrival": [
+        0.0,
+        1.6,
+        7.0
+      ],
+      "yaw": 0.0,
+      "label": "Jardín de mosaicos"
+    }
+  ]
+}

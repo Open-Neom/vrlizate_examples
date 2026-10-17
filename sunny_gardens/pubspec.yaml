@@ -1,0 +1,12 @@
+name: sunny_gardens_vrlz
+description: Independent Dart authoring project for the original Jardines del Alba VRlizate game.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  crypto: ^3.0.7
+  vrlizate_apps:
+    path: ../../neom_modules/vr/vrlizate_apps

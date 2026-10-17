@@ -1,0 +1,71 @@
+Copyright (c) 2016-2017 Sebastian Dine
+
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from
+the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+claim that you wrote the original software. If you use this software in
+a product, an acknowledgment in the product documentation would be
+appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not
+be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+openNES Snake 1.0.9 — bundled homebrew game
+
+Original game, graphics and sound effects: Sebastian Dine.
+Repository: https://github.com/sebastiandine/openNES-Snake
+Pinned source: 66cc333b9df91c2b27965083c48dd0e6e48cb044
+Project license: zlib. The original, unaltered notice is preserved in upstream/LICENSE-openNES-Snake.txt
+and reproduced at the start of this combined notice. The ROM is the author's unmodified
+v1.0.9 release. VRlizate does not claim authorship of this game.
+
+NESLib — Shiru, with improvements by VEG
+The original NESLibrary/neslib.s header states:
+Feel free to do anything you want with this code, consider it Public Domain
+
+FamiTone2 audio library v1.11 — Shiru (September 2014)
+The original library readme states:
+The library is open source and released into the Public Domain. You can
+use it for any purpose without restrictions: redistribute, modify, use
+for commercial and non-commercial projects. You may credit the author,
+inform the author about your project, donate, etc, but nothing is
+obligatory, you could do it at free will. Obviously, the library
+provided AS IS without warranties of any kind, the author is not
+responsible for anything.
+
+A copy of that original readme is preserved at
+ upstream/FamiTone2-v1.11-readme.txt
+from the following pinned library distribution:
+ https://github.com/HonkeyKong/HonkeyPong/blob/f9ab7ad450ffebabec15623aa811a7564f079168/famitone-readme.txt
+
+cc65 runtime library — cc65 contributors
+The upstream project bundles the cc65 NES runtime. Its permissive license
+is reproduced here; a separate copy is at upstream/cc65-LICENSE.txt.
+License reference: https://github.com/cc65/cc65/blob/V2.15/LICENSE
+
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from
+the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+claim that you wrote the original software. If you use this software in
+a product, an acknowledgment in the product documentation would be
+appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not
+be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+

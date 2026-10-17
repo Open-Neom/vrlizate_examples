@@ -1,0 +1,12 @@
+name: open_nes_snake_vrlz
+description: Independent Dart authoring project for an openNES Snake VRlizate package.
+version: 1.0.9+1
+publish_to: none
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  crypto: ^3.0.7
+  vrlizate_apps:
+    path: ../../neom_modules/vr/vrlizate_apps
